@@ -1,0 +1,17 @@
+plane_count: count
+sphere_count: count
+cylinder_count: count
+cone_count: count
+light_count: count
+camera: pos.x pos.y pos.z dir.x dir.y dir.z fov
+light: pos.x pos.y pos.z color
+light: pos.x pos.y pos.z color
+light: pos.x pos.y pos.z color
+sphere: pos.x pos.y pos.z radius color
+sphere: pos.x pos.y pos.z radius color
+plane: pos.x pos.y pos.z dir.x dir.y dir.z color
+plane: pos.x pos.y pos.z dir.x dir.y dir.z color
+cylinder: pos.x pos.y pos.z dir.x dir.y dir.z radius color
+cylinder: pos.x pos.y pos.z dir.x dir.y dir.z radius color
+cone: pos.x pos.y pos.z dir.x dir.y dir.z angle color
+cone: pos.x pos.y pos.z dir.x dir.y dir.z angle color

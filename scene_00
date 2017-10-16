@@ -1,0 +1,13 @@
+plane_count: 1
+sphere_count: 1
+cylinder_count: 1
+cone_count: 1
+light_count: 1
+camera: 0.0 0.0 -25.0 0.0 0.0 1.0 60.0
+light: 0.0 0.0 -40.0 0xffffff
+light: 0.0 0.0 -10.0 0xffffff
+cylinder: -10.0 0.0 7.0 0.0 1.0 0.0 4.0 0xff0000
+sphere: 0.0 5.0 5.0 4.0 0xff
+sphere: 0.0 7.0 2.0 2.0 0xffff
+plane: 0.0 -10.0 0.0 0.0 1.0 0.0 0xffffff
+cone: 10.0 0.0 5.0 -1.0 1.0 0.0 25.0 0xff00

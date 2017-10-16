@@ -1,0 +1,26 @@
+		// t_vector h;
+		// t_vector v;
+		// t_color diff;
+		// t_color spec;
+
+		// d->specular = d->ires.color;
+		// v = vsub(d->ray.origin, d->hit_point);
+		// h = vmul(vadd(d->light_ray_dir, v), 1 / vlen(vadd(d->light_ray_dir, v)));
+		// h = vnorm(h);
+
+		// diff = col_mult_d(d->ires.color, fmax(vdot(d->ires.normal, vnorm(d->light_ray_dir)), 0.0));
+		// spec = col_mult_d(d->specular, pow(fmax(vdot(d->ires.normal, h), 0.0) , 50));
+		// d->final_color = col_add(diff, spec);
+
+20 156 20
+
+14 32 130
+
+4  156 - 32 / 2
+
+
+
+14 + (20 - 14 / 2) = 18
+32 + (156 - 32 / 2) = 61
+130 + (20 - 130 / 2) = -55 + 130 = 75
+
